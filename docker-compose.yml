@@ -1,7 +1,6 @@
 version: "3.7"
 services:
   opentsdb:
-    hostname: otsdb-host
     image: petergrace/opentsdb-docker:latest
     environment:
       - WAITSECS=30    
@@ -9,12 +8,14 @@ services:
       - 4242:4242
       - 60030:60030
     volumes:
-      - "./data:/data/hbase"
+      - type: volume
+        source: opentsdb-data
+        target: /data/hbase
   grafana:
-    hostname: grafana
     image: grafana/grafana
     ports:
       - 3000:3000
     depends_on:
       - opentsdb
-    
+volumes:
+  opentsdb-data:
