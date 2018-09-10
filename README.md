@@ -6,13 +6,15 @@ https://www.tensorflow.org/install/
 
 Follow the above instructions for installing
 
- - [CUDA Toolkit](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/) _1.5Gb_
+**NOTE: VERSION NUMBERS ARE CRITICAL**
+
+ - [CUDA Toolkit 9.0](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/) _1.5Gb_
      - Requires signup for free account
- - [cuDNN](https://developer.nvidia.com/cudnn) 
+ - [cuDNN 7.2.1 for CUDA 9.0](https://developer.nvidia.com/cudnn) 
     - Follow these instructions on where to unzip
     - https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installwindows
  - [Python 3.6](https://www.python.org/downloads/release/python-366/)
- - Tensorflow-GPU
+ - Tensorflow-GPU 1.10
 
  ```bash
  # Set python virtual environment for this repo

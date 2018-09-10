@@ -36,3 +36,4 @@ def mnist_classification():
 
 if __name__ == "__main__":
     default()
+    mnist_classification()

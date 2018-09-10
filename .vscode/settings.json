@@ -15,5 +15,6 @@
     "editor.formatOnSave": true,
     "python.formatting.autopep8Args": [
         "--aggressive"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\jpeak\\.virtualenvs\\hello_tensorflow-H0EZwAQw\\Scripts\\python.exe"
 }
