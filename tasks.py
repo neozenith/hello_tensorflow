@@ -8,6 +8,14 @@ PACKAGE_NAME = "hellotensorflow"
 
 
 @task
+def start(context):
+    """
+        Entry point to run this package
+    """
+    context.run("python hellotensorflow/hello.py")
+
+
+@task
 def lint(context):
     """
         This task is available from CLI but normal development should leverage lint in VS Code.
@@ -50,6 +58,7 @@ def coverage(context):
     context.run(" ".join([
         "python -m pytest",
         "--cov=%s" % PACKAGE_NAME,
+        "--cov-report html",
         "--cov-branch",
         "--cov-fail-under=75"
     ]))
