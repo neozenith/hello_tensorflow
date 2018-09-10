@@ -1,0 +1,19 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": true,
+    "editor.renderWhitespace": "all",
+    "[python]": {
+        "editor.rulers": [
+            72,
+            79
+        ],
+        "editor.tabSize": 4,
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.autopep8Args": [
+        "--aggressive"
+    ]
+}

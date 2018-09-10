@@ -1,0 +1,13 @@
+# Compilation caches
+**/*.pyc
+**/__pycache__/**
+
+# Coverage Files
+.coverage*
+coverage.xml
+htmlcov
+!.coveragerc
+
+# Test files
+.tox
+**/.pytest_cache/**
