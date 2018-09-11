@@ -10,6 +10,8 @@ pytest-cov = "*"
 pylint = "*"
 "autopep8" = "*"
 tensorflow-gpu = "==1.10"
+numpy = "*"
+"h5py" = "*"
 
 [dev-packages]
 
