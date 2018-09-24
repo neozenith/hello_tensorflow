@@ -8,7 +8,7 @@ Follow the above instructions for installing
 
 **NOTE: VERSION NUMBERS ARE CRITICAL**
 
- - [CUDA Toolkit 9.0](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/) _1.5Gb_
+ - [CUDA Toolkit 9.0](https://developer.nvidia.com/cuda-90-download-archive) _1.5Gb_
      - Requires signup for free account
  - [cuDNN 7.2.1 for CUDA 9.0](https://developer.nvidia.com/cudnn) 
     - Follow these instructions on where to unzip
